@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+  batfish:
+   image: batfish/allinone
+   ports:
+     - 8889:8888
+     - 9996:9996
+     - 9997:9997
+   volumes:
+     - batfish-data:/data
+volumes:
+  batfish-data:

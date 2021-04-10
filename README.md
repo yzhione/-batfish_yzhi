@@ -7,5 +7,6 @@
 Устанавливаем batfish в virtualen и добавляем зависимости из файла req.txt:
     python3.8 -m venv BATFISH
     pip install -r ../../req.txt
+Файл для сборки докера - dokcer-compose.yml
 
 Файл для конфигов '/home/yzhi/#SHARA/configs'

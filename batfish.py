@@ -9,6 +9,8 @@
     pip install -r ../../req.txt 
 
 Файл для конфигов '/home/yzhi/#SHARA/configs'
+
+Файл для сборки докера - docker-compose.yml
 """
 import pandas as pd
 from pybatfish.client.commands import *
